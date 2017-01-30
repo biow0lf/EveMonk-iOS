@@ -30,6 +30,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         application.registerForRemoteNotifications()
 
+//        let a = API.ApiKeys.read(id: 3)
+//
+//        a.perform(withSuccess: { api_key in
+//            print("api_key id: \(api_key.id)")
+//            print("api_key key_id: \(api_key.key_id)")
+//            print("api_key v_code: \(api_key.v_code)")
+//            print("api_key created_at: \(api_key.created_at)")
+//            print("api_key updated_at: \(api_key.updated_at)")
+//        })
+
         return true
     }
 

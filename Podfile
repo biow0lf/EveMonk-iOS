@@ -7,5 +7,8 @@ target 'tracker' do
 
   # Pods for tracker
   pod 'Siren'
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'TRON'
 end
 
