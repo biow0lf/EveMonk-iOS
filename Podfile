@@ -10,5 +10,6 @@ target 'tracker' do
   pod 'SwiftyJSON'
   pod 'Alamofire'
   pod 'TRON'
+  pod '1PasswordExtension'
 end
 
