@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		770E2367649693C563228655 /* Pods_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A608630EA7457FF3AF3D6110 /* Pods_tracker.framework */; };
+		C525673F1E428EC900660453 /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C525673E1E428EC900660453 /* OnePasswordExtension.m */; };
+		C52567411E428ED600660453 /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52567401E428ED600660453 /* 1Password.xcassets */; };
 		C55D969D1E3FCFBB00911048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D969C1E3FCFBB00911048 /* AppDelegate.swift */; };
 		C55D969F1E3FCFBB00911048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D969E1E3FCFBB00911048 /* ViewController.swift */; };
 		C55D96A21E3FCFBB00911048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A01E3FCFBB00911048 /* Main.storyboard */; };
@@ -24,6 +26,9 @@
 /* Begin PBXFileReference section */
 		4283E6486450C154B7FF15F9 /* Pods-tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tracker/Pods-tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		A608630EA7457FF3AF3D6110 /* Pods_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C525673D1E428EC200660453 /* OnePasswordExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OnePasswordExtension.h; path = ../Pods/1PasswordExtension/OnePasswordExtension.h; sourceTree = "<group>"; };
+		C525673E1E428EC900660453 /* OnePasswordExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnePasswordExtension.m; path = ../Pods/1PasswordExtension/OnePasswordExtension.m; sourceTree = "<group>"; };
+		C52567401E428ED600660453 /* 1Password.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = 1Password.xcassets; path = ../Pods/1PasswordExtension/1Password.xcassets; sourceTree = "<group>"; };
 		C55D96991E3FCFBB00911048 /* tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55D969C1E3FCFBB00911048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C55D969E1E3FCFBB00911048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +67,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C525673C1E428E8B00660453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C52567421E428EE400660453 /* 1Password */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C52567421E428EE400660453 /* 1Password */ = {
+			isa = PBXGroup;
+			children = (
+				C525673E1E428EC900660453 /* OnePasswordExtension.m */,
+				C52567401E428ED600660453 /* 1Password.xcassets */,
+				C525673D1E428EC200660453 /* OnePasswordExtension.h */,
+			);
+			name = 1Password;
+			sourceTree = "<group>";
+		};
 		C55D96901E3FCFBB00911048 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +112,7 @@
 				C5E2382D1E3FFE4700A05C3B /* API+ApiKeys.swift */,
 				C5E238271E3FEFED00A05C3B /* Session.swift */,
 				C5E2382F1E3FFE7200A05C3B /* ApiKey.swift */,
+				C525673C1E428E8B00660453 /* Supporting Files */,
 				C5E238291E3FF37D00A05C3B /* StringExtentions.swift */,
 				C5E2382B1E3FF3E200A05C3B /* DateExtensions.swift */,
 				C55D969E1E3FCFBB00911048 /* ViewController.swift */,
@@ -178,6 +202,7 @@
 			files = (
 				C55D96A71E3FCFBB00911048 /* LaunchScreen.storyboard in Resources */,
 				C55D96A41E3FCFBB00911048 /* Assets.xcassets in Resources */,
+				C52567411E428ED600660453 /* 1Password.xcassets in Resources */,
 				C55D96A21E3FCFBB00911048 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +265,7 @@
 				C5E238281E3FEFED00A05C3B /* Session.swift in Sources */,
 				C5E2382E1E3FFE4700A05C3B /* API+ApiKeys.swift in Sources */,
 				C5E238301E3FFE7200A05C3B /* ApiKey.swift in Sources */,
+				C525673F1E428EC900660453 /* OnePasswordExtension.m in Sources */,
 				C5E2382A1E3FF37D00A05C3B /* StringExtentions.swift in Sources */,
 				C55D969F1E3FCFBB00911048 /* ViewController.swift in Sources */,
 				C5E238261E3FDAF700A05C3B /* API.swift in Sources */,
