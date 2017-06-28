@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		C55D96A21E3FCFBB00911048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A01E3FCFBB00911048 /* Main.storyboard */; };
 		C55D96A41E3FCFBB00911048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A31E3FCFBB00911048 /* Assets.xcassets */; };
 		C55D96A71E3FCFBB00911048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A51E3FCFBB00911048 /* LaunchScreen.storyboard */; };
+		C5B9FDEA1F03CFF00096E59A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B9FDE91F03CFF00096E59A /* StoreKit.framework */; };
 		C5E238261E3FDAF700A05C3B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E238251E3FDAF700A05C3B /* API.swift */; };
 		C5E238281E3FEFED00A05C3B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E238271E3FEFED00A05C3B /* Session.swift */; };
 		C5E2382A1E3FF37D00A05C3B /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E238291E3FF37D00A05C3B /* StringExtentions.swift */; };
@@ -36,6 +37,7 @@
 		C55D96A31E3FCFBB00911048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C55D96A61E3FCFBB00911048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C55D96A81E3FCFBB00911048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B9FDE91F03CFF00096E59A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C5E238241E3FD0F600A05C3B /* tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tracker.entitlements; sourceTree = "<group>"; };
 		C5E238251E3FDAF700A05C3B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		C5E238271E3FEFED00A05C3B /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				770E2367649693C563228655 /* Pods_tracker.framework in Frameworks */,
+				C5B9FDEA1F03CFF00096E59A /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +130,7 @@
 		D60A450EA21FE87504A2FE1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5B9FDE91F03CFF00096E59A /* StoreKit.framework */,
 				A608630EA7457FF3AF3D6110 /* Pods_tracker.framework */,
 			);
 			name = Frameworks;
@@ -170,6 +174,9 @@
 						DevelopmentTeam = L94VC9ZZXC;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -178,7 +185,7 @@
 				};
 			};
 			buildConfigurationList = C55D96941E3FCFBB00911048 /* Build configuration list for PBXProject "tracker" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -237,7 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C5DACE93ACBC0B4B37875F1C /* [CP] Embed Pods Frameworks */ = {
