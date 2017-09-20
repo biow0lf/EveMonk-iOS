@@ -3,12 +3,12 @@ PODS:
   - Alamofire (4.5.1)
   - Siren (2.0.6)
   - SwiftyJSON (3.1.4)
-  - TRON (3.0.3):
+  - TRON (3.1.1):
     - Alamofire (~> 4.1)
-    - TRON/SwiftyJSON (= 3.0.3)
-  - TRON/Core (3.0.3):
+    - TRON/SwiftyJSON (= 3.1.1)
+  - TRON/Core (3.1.1):
     - Alamofire (~> 4.1)
-  - TRON/SwiftyJSON (3.0.3):
+  - TRON/SwiftyJSON (3.1.1):
     - Alamofire (~> 4.1)
     - SwiftyJSON (~> 3.1)
     - TRON/Core
@@ -25,7 +25,7 @@ SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   Siren: fae83cda4d08373982313ba64873035e7c1bab40
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  TRON: dd43f2d37b70ae245e5fef4a52f1ab8a5eaac3a5
+  TRON: 4a0363c028cd01be7654d810d5157fce64b24855
 
 PODFILE CHECKSUM: 8a1784fd0b3e9dfa986e2bf2304d27845d6f0c15
 
