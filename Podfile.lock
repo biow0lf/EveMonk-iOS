@@ -1,7 +1,7 @@
 PODS:
   - 1PasswordExtension (1.8.4)
   - Alamofire (4.5.1)
-  - Siren (3.0.1)
+  - Siren (3.1.1)
   - SwiftyJSON (3.1.4)
   - TRON (3.1.1):
     - Alamofire (~> 4.1)
@@ -23,7 +23,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   1PasswordExtension: e775a29310c65851e5a6cec1afc349ab4e334e47
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  Siren: 1fe6c89c268bb5abe684120142e2ad3e7fb0ca1a
+  Siren: 9f24a419719284ad690375f8e0ea713d3f631f4b
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   TRON: 4a0363c028cd01be7654d810d5157fce64b24855
 
