@@ -42,11 +42,13 @@ GEM
       netrc (~> 0.11)
     cocoapods-try (1.1.0)
     colored2 (3.1.2)
+    concurrent-ruby (1.0.5)
     escape (0.0.4)
     fourflusher (2.0.1)
     fuzzy_match (2.0.4)
     gh_inspector (1.0.3)
-    i18n (0.8.6)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
     minitest (5.10.3)
     molinillo (0.5.7)
     nanaimo (0.2.3)
@@ -69,4 +71,4 @@ DEPENDENCIES
   cocoapods
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
