@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		770E2367649693C563228655 /* Pods_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A608630EA7457FF3AF3D6110 /* Pods_tracker.framework */; };
+		7044D73690846D0AA67935BF /* Pods_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2721213EB3EB1BAD2A2BCE /* Pods_tracker.framework */; };
+		C525673F1E428EC900660453 /* OnePasswordExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C525673E1E428EC900660453 /* OnePasswordExtension.m */; };
+		C52567411E428ED600660453 /* 1Password.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52567401E428ED600660453 /* 1Password.xcassets */; };
 		C55D969D1E3FCFBB00911048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D969C1E3FCFBB00911048 /* AppDelegate.swift */; };
 		C55D969F1E3FCFBB00911048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D969E1E3FCFBB00911048 /* ViewController.swift */; };
 		C55D96A21E3FCFBB00911048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A01E3FCFBB00911048 /* Main.storyboard */; };
 		C55D96A41E3FCFBB00911048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A31E3FCFBB00911048 /* Assets.xcassets */; };
 		C55D96A71E3FCFBB00911048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55D96A51E3FCFBB00911048 /* LaunchScreen.storyboard */; };
+		C5B9FDEA1F03CFF00096E59A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B9FDE91F03CFF00096E59A /* StoreKit.framework */; };
 		C5E238261E3FDAF700A05C3B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E238251E3FDAF700A05C3B /* API.swift */; };
 		C5E238281E3FEFED00A05C3B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E238271E3FEFED00A05C3B /* Session.swift */; };
 		C5E2382A1E3FF37D00A05C3B /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E238291E3FF37D00A05C3B /* StringExtentions.swift */; };
@@ -22,8 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4283E6486450C154B7FF15F9 /* Pods-tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tracker/Pods-tracker.debug.xcconfig"; sourceTree = "<group>"; };
-		A608630EA7457FF3AF3D6110 /* Pods_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F98ABE326005AE75C70498 /* Pods-tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tracker/Pods-tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		C525673D1E428EC200660453 /* OnePasswordExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OnePasswordExtension.h; path = ../Pods/1PasswordExtension/OnePasswordExtension.h; sourceTree = "<group>"; };
+		C525673E1E428EC900660453 /* OnePasswordExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnePasswordExtension.m; path = ../Pods/1PasswordExtension/OnePasswordExtension.m; sourceTree = "<group>"; };
+		C52567401E428ED600660453 /* 1Password.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = 1Password.xcassets; path = ../Pods/1PasswordExtension/1Password.xcassets; sourceTree = "<group>"; };
 		C55D96991E3FCFBB00911048 /* tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55D969C1E3FCFBB00911048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C55D969E1E3FCFBB00911048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		C55D96A31E3FCFBB00911048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C55D96A61E3FCFBB00911048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C55D96A81E3FCFBB00911048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B9FDE91F03CFF00096E59A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C5E238241E3FD0F600A05C3B /* tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tracker.entitlements; sourceTree = "<group>"; };
 		C5E238251E3FDAF700A05C3B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		C5E238271E3FEFED00A05C3B /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -38,7 +44,8 @@
 		C5E2382B1E3FF3E200A05C3B /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		C5E2382D1E3FFE4700A05C3B /* API+ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+ApiKeys.swift"; sourceTree = "<group>"; };
 		C5E2382F1E3FFE7200A05C3B /* ApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
-		DB9EF45C4C105320B8066530 /* Pods-tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-tracker/Pods-tracker.release.xcconfig"; sourceTree = "<group>"; };
+		CB2721213EB3EB1BAD2A2BCE /* Pods_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF278B0C4E97A952E0611557 /* Pods-tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-tracker/Pods-tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +53,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770E2367649693C563228655 /* Pods_tracker.framework in Frameworks */,
+				C5B9FDEA1F03CFF00096E59A /* StoreKit.framework in Frameworks */,
+				7044D73690846D0AA67935BF /* Pods_tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F8F569636599F11B9ACB09A /* Pods */ = {
+		95003E771B1A8692203B1EEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4283E6486450C154B7FF15F9 /* Pods-tracker.debug.xcconfig */,
-				DB9EF45C4C105320B8066530 /* Pods-tracker.release.xcconfig */,
+				A6F98ABE326005AE75C70498 /* Pods-tracker.debug.xcconfig */,
+				FF278B0C4E97A952E0611557 /* Pods-tracker.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C525673C1E428E8B00660453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C52567421E428EE400660453 /* 1Password */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C52567421E428EE400660453 /* 1Password */ = {
+			isa = PBXGroup;
+			children = (
+				C525673E1E428EC900660453 /* OnePasswordExtension.m */,
+				C52567401E428ED600660453 /* 1Password.xcassets */,
+				C525673D1E428EC200660453 /* OnePasswordExtension.h */,
+			);
+			name = 1Password;
 			sourceTree = "<group>";
 		};
 		C55D96901E3FCFBB00911048 = {
@@ -67,8 +93,8 @@
 			children = (
 				C55D969B1E3FCFBB00911048 /* tracker */,
 				C55D969A1E3FCFBB00911048 /* Products */,
-				7F8F569636599F11B9ACB09A /* Pods */,
 				D60A450EA21FE87504A2FE1F /* Frameworks */,
+				95003E771B1A8692203B1EEF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +115,7 @@
 				C5E2382D1E3FFE4700A05C3B /* API+ApiKeys.swift */,
 				C5E238271E3FEFED00A05C3B /* Session.swift */,
 				C5E2382F1E3FFE7200A05C3B /* ApiKey.swift */,
+				C525673C1E428E8B00660453 /* Supporting Files */,
 				C5E238291E3FF37D00A05C3B /* StringExtentions.swift */,
 				C5E2382B1E3FF3E200A05C3B /* DateExtensions.swift */,
 				C55D969E1E3FCFBB00911048 /* ViewController.swift */,
@@ -103,7 +130,8 @@
 		D60A450EA21FE87504A2FE1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A608630EA7457FF3AF3D6110 /* Pods_tracker.framework */,
+				C5B9FDE91F03CFF00096E59A /* StoreKit.framework */,
+				CB2721213EB3EB1BAD2A2BCE /* Pods_tracker.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,12 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C55D96AB1E3FCFBB00911048 /* Build configuration list for PBXNativeTarget "tracker" */;
 			buildPhases = (
-				5909A96509ACC2B34BD17A49 /* [CP] Check Pods Manifest.lock */,
+				D2FE1B50D35BA21F637536AB /* [CP] Check Pods Manifest.lock */,
 				C55D96951E3FCFBB00911048 /* Sources */,
 				C55D96961E3FCFBB00911048 /* Frameworks */,
 				C55D96971E3FCFBB00911048 /* Resources */,
-				C5DACE93ACBC0B4B37875F1C /* [CP] Embed Pods Frameworks */,
-				0D46B7C5D33AE0D3DBF94E3C /* [CP] Copy Pods Resources */,
+				0E93B7807E93DCA97B7410A1 /* [CP] Embed Pods Frameworks */,
+				961D9DB092CC917C34234BA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,14 +166,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Igor Zubkov";
 				TargetAttributes = {
 					C55D96981E3FCFBB00911048 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = L94VC9ZZXC;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -154,7 +186,7 @@
 				};
 			};
 			buildConfigurationList = C55D96941E3FCFBB00911048 /* Build configuration list for PBXProject "tracker" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -178,6 +210,7 @@
 			files = (
 				C55D96A71E3FCFBB00911048 /* LaunchScreen.storyboard in Resources */,
 				C55D96A41E3FCFBB00911048 /* Assets.xcassets in Resources */,
+				C52567411E428ED600660453 /* 1Password.xcassets in Resources */,
 				C55D96A21E3FCFBB00911048 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +218,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D46B7C5D33AE0D3DBF94E3C /* [CP] Copy Pods Resources */ = {
+		0E93B7807E93DCA97B7410A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tracker/Pods-tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/1PasswordExtension/OnePasswordExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePasswordExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tracker/Pods-tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961D9DB092CC917C34234BA3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,34 +259,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tracker/Pods-tracker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5909A96509ACC2B34BD17A49 /* [CP] Check Pods Manifest.lock */ = {
+		D2FE1B50D35BA21F637536AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tracker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C5DACE93ACBC0B4B37875F1C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tracker/Pods-tracker-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -240,6 +287,7 @@
 				C5E238281E3FEFED00A05C3B /* Session.swift in Sources */,
 				C5E2382E1E3FFE4700A05C3B /* API+ApiKeys.swift in Sources */,
 				C5E238301E3FFE7200A05C3B /* ApiKey.swift in Sources */,
+				C525673F1E428EC900660453 /* OnePasswordExtension.m in Sources */,
 				C5E2382A1E3FF37D00A05C3B /* StringExtentions.swift in Sources */,
 				C55D969F1E3FCFBB00911048 /* ViewController.swift in Sources */,
 				C5E238261E3FDAF700A05C3B /* API.swift in Sources */,
@@ -279,7 +327,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -287,7 +337,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -329,7 +383,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -337,7 +393,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -365,7 +425,7 @@
 		};
 		C55D96AC1E3FCFBB00911048 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4283E6486450C154B7FF15F9 /* Pods-tracker.debug.xcconfig */;
+			baseConfigurationReference = A6F98ABE326005AE75C70498 /* Pods-tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tracker/tracker.entitlements;
@@ -377,13 +437,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		C55D96AD1E3FCFBB00911048 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB9EF45C4C105320B8066530 /* Pods-tracker.release.xcconfig */;
+			baseConfigurationReference = FF278B0C4E97A952E0611557 /* Pods-tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tracker/tracker.entitlements;
@@ -393,7 +454,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evemonk.tracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

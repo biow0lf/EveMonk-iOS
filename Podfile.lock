@@ -1,29 +1,32 @@
 PODS:
-  - Alamofire (4.3.0)
-  - Siren (1.1.3)
-  - SwiftyJSON (3.1.4)
-  - TRON (2.0.1):
-    - Alamofire (~> 4.1)
-    - TRON/SwiftyJSON (= 2.0.1)
-  - TRON/Core (2.0.1):
-    - Alamofire (~> 4.1)
-  - TRON/SwiftyJSON (2.0.1):
-    - Alamofire (~> 4.1)
-    - SwiftyJSON (~> 3.1)
+  - 1PasswordExtension (1.8.4)
+  - Alamofire (4.5.1)
+  - Siren (3.1.6)
+  - SwiftyJSON (4.0.0)
+  - TRON (4.0.0):
+    - Alamofire (~> 4.5)
+    - TRON/SwiftyJSON (= 4.0.0)
+  - TRON/Core (4.0.0):
+    - Alamofire (~> 4.5)
+  - TRON/SwiftyJSON (4.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0)
     - TRON/Core
 
 DEPENDENCIES:
+  - 1PasswordExtension
   - Alamofire
   - Siren
   - SwiftyJSON
   - TRON
 
 SPEC CHECKSUMS:
-  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
-  Siren: 61777cce2341bad8ecc239518e86572294ea4021
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  TRON: 7b9adeb678fe0e25433d207f6a734aaf145fa9b5
+  1PasswordExtension: e775a29310c65851e5a6cec1afc349ab4e334e47
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Siren: c49eae354748d901bd3d20120fb0a78a52d47544
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TRON: 71694d7d590fa7638688b71008510576c293bda3
 
-PODFILE CHECKSUM: 878dfd22fc2cc955f601cc56971f0491412dbf5b
+PODFILE CHECKSUM: 8a1784fd0b3e9dfa986e2bf2304d27845d6f0c15
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
